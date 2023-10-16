@@ -125,3 +125,7 @@ char *const s 指针常量，s是个不可修改的指针，但可通过指针s�
 
 4.const修饰形参，避免参数在函数内部被修改
 int add(const int *pt1, const int *pt2) 
+
+
+## 33.定义一个空的类，对该类求sizeof，得到的结果是多少
+结果1(字节)
