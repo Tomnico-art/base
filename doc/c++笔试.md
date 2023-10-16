@@ -129,3 +129,18 @@ int add(const int *pt1, const int *pt2)
 
 ## 33.定义一个空的类，对该类求sizeof，得到的结果是多少
 结果1(字节)
+
+## 58.初始化vector的6种方法
+1.    vector<int> list1 = {1,2,3,4,5,6};
+    vector<int> list1_1 = {1,2,3,4,5,6};
+
+2.    vector<int> list2;//元素为空
+
+3.    vector<int> list3 = list1;
+
+4.    vector<int> list4(list1.begin()+2, list1.end()-1);  //{3,4,5}
+
+5.    vector<int> list5(10); //10个0；
+
+6.    vector<int> list6(10, 3);    //10个3
+
