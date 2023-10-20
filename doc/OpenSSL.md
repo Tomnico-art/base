@@ -81,19 +81,5 @@ RSA *generateKeyPair(int keyLength) {
 
 
 
-1. 参照安装文档在两台虚拟机上非结构化部署，完成BERT-NER和BERT-RE
-
-部署和注册。
-
-2，整理文档，完善gBuilder Docker部署指南和gBuilder 单机版模型部署指南。
-
-
-
-研究对数据库产品实现lisence加密的方法
-
-
-
-本周主要对gbuilder进行部署，过程中对docker不够熟悉，在安装中遇到一些问题影响了进度，后续需加强这方面的技能学习。
-
 
 

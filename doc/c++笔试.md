@@ -158,4 +158,41 @@ a = a - b
 ## 59.递归显示vector对象
 见test59
 
+## 60.内存分配经典问题(按值传递和按地址传递)
+下面代码有无问题，如果有问题如何修改
+void GetMemory(char *p);
 
+int main()
+{
+    char *str = NULL;
+    strcpy(str, "hello world");
+    printf("%s\n", str);
+
+    return 0;
+}
+
+void GetMemory(char *p)
+{
+    p = (char *)malloc(100);
+}
+
+错误：按值传递，函数调用后局部变量释放，修改见test60
+
+## 61.c++中指针的引用
+
+void GetMemory(char * &p);
+
+int main()
+{
+    char *str = NULL;
+    GetMemory(str);
+    strcpy(str, "hello world");
+    printf("%s\n", str);
+
+    return 0;
+}
+
+void GetMemory(char * &p)
+{
+    p = (char *)malloc(100);
+}
