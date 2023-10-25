@@ -1,0 +1,1 @@
+/usr/bin/c++   -g -Wall -g  -rdynamic CMakeFiles/license_tool.dir/keytool.cpp.o  -o license_tool  -lssl -lcrypto 

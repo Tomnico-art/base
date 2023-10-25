@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/code/code_lisence/license/keytool.cpp
+iostream
+-
+fstream
+-
+string
+-
+sstream
+-
+vector
+-
+openssl/rsa.h
+-
+openssl/pem.h
+-
+openssl/md5.h
+-
+

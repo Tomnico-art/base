@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/code/code_lisence/license/license.cpp
+iostream
+-
+fstream
+-
+string
+-
+cstring
+-
+openssl/md5.h
+-
+openssl/hmac.h
+-
+openssl/rand.h
+-
+stdexcept
+-
+sstream
+-
+iomanip
+-
+vector
+-
+algorithm
+-
+sys/ioctl.h
+-
+net/if.h
+-
+netinet/in.h
+-
+unistd.h
+-
+

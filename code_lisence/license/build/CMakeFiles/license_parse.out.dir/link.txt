@@ -1,0 +1,1 @@
+/usr/bin/c++   -g -Wall -g  -rdynamic CMakeFiles/license_parse.out.dir/license_parse.cpp.o  -o license_parse.out  -lssl -lcrypto 
